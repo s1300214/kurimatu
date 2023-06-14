@@ -24,11 +24,11 @@ int main()
 
   if(total > 7)
     {
-      printf("You won!\n");
+      printf("%s won!\n",str);
     }
   else
     {
-      printf("You lost!\n");
+      printf("%s lost!\n",str);
     }
 
   return 0;
