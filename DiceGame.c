@@ -5,7 +5,11 @@
 int main()
 {
   int d1,d2;
+  char str[8];
 
+  printf("What is your name?\n");
+  scanf("%s",str);
+  printf("Hello,%s!\n",str);
   printf("Rolling dice...\n");
   srand(time(NULL));
 
